@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #535247;
+    text-align: left;
+    background-color: #183404;
+
+
+}
+
+a {
+
+    color: #06315b;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+
+}
+
+a:hover {
+
+    color: #06315b;
+    text-decoration: underline;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .path-calendar .maincalendar .calendar-controls .current, .h3, .h4, .h5, .h6 {
+
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #130;
+
+}
+
+.list-group-item.active {
+
+    z-index: 2;
+    color: #fff;
+    background-color: #0d2203;
+    border-color: #000000;
+
+}
+
+.navbar {
+	background: url(/theme/image.php/lclark/theme/1532991762/bg-header-college2) repeat 0% 50%;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: rgba(255,255,255,255);
+
+}
+.navbar-light .navbar-brand {
+
+    color: rgba(255,255,255,255);
+
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+
+    color: rgb(255,165,0);
+
+}
+.navbar a {
+
+    color: #000;
+    text-decoration: none;
+    background-color: rgba(169,169,169,.1);
+    -webkit-text-decoration-skip: objects;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+
+    text-decoration: underline;
+    color: rgba(255,255,255,255);
+
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+
+    color: rgba(255,255,255,255);
+
+}
+
+.dropdown-menu a {
+	
+	color: #333333;
+	background-color: transparent
+	
+}
+
+.mr-1, .mx-1 {
+
+    margin-right: .25rem !important;
+    color: #ffffff;
+
+}
+
+.mr-1:hover {
+
+	text-decoration: underline;
+}
+
+.btn-primary {
+
+    color: #fff;
+    background-color: #e66b3f;
+    border-color: #e66b3f;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+
+    color: #fff;
+    background-color: #B85532;
+    border-color: #B85532;
+    border-radius: 3px;
+}
+
+.btn-secondary {
+
+    color: #212529;
+    background-color: #d3d9df;
+    border-color: #cbd3da;
+    border-radius: 3px;
+    
+}
+
+.btn-secondary:hover {
+
+    color: #212529;
+    background-color: #93979C;
+    border-color: #93979C;
+    border-radius: 3px;
+    
+}
+
+.navbar .action-menu .dropdown-toggle {
+
+    text-decoration: none;
+    color: #fff
+}
+
+.text-info, .highlight {
+
+    color: #E66B3F !important;
+
+}
+
+.popover-region-messages a {
+
+    background-color: transparent;
+
+}
+
+.popover-region-header-actions a {
+
+    color: #130;
+    background-color: transparent
+
+}
+
+.popover-region-header-actions a:hover {
+
+    color:#FFA500;
+
+}
+
+.content-item-container:hover {
+
+    color: #000;
+    background-color: #DCDCDC;
+
+}
+
+.userpicture {
+
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+
+.forumpost.unread .row.header, .path-course-view .unread, span.unread {
+
+    background-color: #ffffb3;
+
+}
+
+.usermenu .login {
+  
+  color: #fff
+  
+}
+
+.usermenu .login a {
+
+    color: #ffa500;
+
+}
+
+.usermenu .login a:hover {
+
+    color: #ffa500;
+    text-decoration: underline;
+
+}
+
+.path-mod-assign [data-region="grading-navigation"] a {
+	
+	color:#fff;
+	
+}
+
+.path-mod-assign [data-region="grading-navigation"] {
+	
+	padding: 1.5px;
+	color:#fff
+	
+}
+
+.path-mod-assign [data-region="grade-actions"] {
+
+    color:#fff
+
+}
+
+.path-mod-assign h4 {
+
+	color:#fff
+
+}
