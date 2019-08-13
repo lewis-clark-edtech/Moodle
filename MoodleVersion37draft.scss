@@ -1,0 +1,269 @@
+body 
+{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #535247;
+    text-align: left;
+    background-color: #183404;
+}
+
+a 
+{
+    color: #06315b;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover 
+{
+    color: #06315b;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .path-calendar .maincalendar .calendar-controls .current, .h3, .h4, .h5, .h6 
+{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #130;
+}
+
+section, .card-body, .card
+{
+    border-radius: 8px;
+}
+
+.list-group-item.active 
+{
+    z-index: 2;
+    color: #fff;
+    background-color: #0d2203;
+    border-color: #000000;
+}
+
+/* Navbar */
+.navbar 
+{
+	background: url(https://moodle.lclark.edu/theme/image.php/lclark/theme/1532991762/bg-header-college2) repeat 0% 50%;	
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand 
+{
+    color: rgba(255,255,255,255);
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active 
+{
+    color: rgba(255,255,255,255);
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus 
+{
+    color: rgb(255,165,0);
+}
+
+.navbar a 
+{
+    color: #000;
+    text-decoration: none;
+	-webkit-text-decoration-skip: objects;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus 
+{
+    text-decoration: underline;
+    color: rgba(255,255,255,255);
+}
+
+/* when the screen with is <= 991.98px (bootstrap 'medium') */
+@media (max-width: 991.98px)  
+{
+    .navbar
+    {
+        font-size: 8px;
+        overflow-y: hidden;
+        padding-right: 2px !important;
+    }
+
+}
+
+.navbar .action-menu .dropdown-toggle 
+{
+    text-decoration: none;
+    color: #fff
+}
+
+
+.fa-bars 
+{	
+	color: #183404;	
+}
+
+.dropdown-menu a 
+{	
+	color: #333333;
+	background-color: transparent	
+}
+
+.mr-1, .mx-1 
+{
+    margin-right: .25rem !important;
+    color: #ffffff;
+}
+
+.mr-1:hover 
+{
+	text-decoration: underline;
+}
+
+
+/* Buttons */
+.btn-primary, .btn-secondary 
+{
+    color: #fff;
+    background-color: #e66b3f !important;
+    border-color: #e66b3f !important;
+    border-radius: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover 
+{
+    color: #fff;
+    background-color: #B85532;
+    border-color: #B85532;
+    border-radius: 3px;
+}
+
+.btn.checked
+{
+    background-color: rgba(184,85,50,.8) !important; /*#B85532*/
+    border: none;
+}
+
+.text-info, .highlight 
+{
+    color: #E66B3F !important;
+}
+
+
+/* Popovers */
+.popover-region-messages a 
+{
+    background-color: transparent;
+}
+
+.popover-region-header-actions a 
+{
+    color: #130;
+    background-color: transparent
+}
+
+.popover-region-header-actions a:hover 
+{
+    color:#FFA500;
+}
+
+
+.content-item-container:hover 
+{
+    color: #000;
+    background-color: #DCDCDC;
+}
+
+.userpicture 
+{
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.forumpost.unread .row.header, .path-course-view .unread, span.unread 
+{
+    background-color: #ffffb3;
+}
+
+.usermenu .login 
+{  
+  color: #fff 
+}
+
+.usermenu .login a 
+{
+    color: #ffa500;
+}
+
+.usermenu .login a:hover 
+{
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+.path-mod-assign [data-region="grading-navigation"] a 
+{	
+	color:#fff;	
+}
+
+.path-mod-assign [data-region="grading-navigation"] 
+{	
+	padding: 1.5px;
+	color:#fff	
+}
+
+.path-mod-assign [data-region="grade-actions"] 
+{
+    color:#fff
+}
+
+.path-mod-assign h4 
+{
+	color:#fff
+}
+
+
+/* Messages  */
+.message-app .bg-secondary, .message-app .message.received
+{
+	background-color: #fff!important;
+}
+
+.message-app .message.send .tail, .message-app .message.received .tail 
+{
+	border-bottom-color: #fff;
+}
+
+.message-app .mr-1, .mx-1 
+{
+    margin-right: .25rem!important;
+    color: #000000;
+}
+
+
+#page-my-index 
+{
+    background-color: #183404;
+}
+
+
+/* Footer  */
+#page-footer
+{
+    background-color: #343430 !important;
+}
+
+#page-footer::before
+{
+    content: '';
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    top: -40px;
+    position: relative;
+    background-image: url(https://lclark.edu/live/resource/css/images/2016/footer-trees.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
