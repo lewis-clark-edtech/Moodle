@@ -145,6 +145,11 @@ section, .card-body, .card
     border: none;
 }
 
+.fp-viewbar:not(.disabled) a.checked:not(:disabled):not(.disabled) 
+{
+	color: #fff;
+}
+
 .text-info, .highlight 
 {
     color: #E66B3F !important;
